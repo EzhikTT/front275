@@ -1,0 +1,15 @@
+.popup-wrapper {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,.1);
+    top: 0;
+    left: 0;
+}
+.popup-body {
+    padding: 20px;
+    background-color: white;
+}
