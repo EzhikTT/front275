@@ -12,13 +12,13 @@ export const test = createSlice({
             state.counter++
         },
         dec: (state) => {
-            state.counter--
+            state.counter-=1
         }
     }
 })
 
-export const {inc, dec} = test.actions
 
+export const {inc, dec} = test.actions
 /*
 ACTIONS
 inc(){
