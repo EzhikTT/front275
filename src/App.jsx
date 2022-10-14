@@ -23,6 +23,8 @@ const router = createBrowserRouter([
         element: <Office/>
     }
 ])
+    
+    
 
 const SET_LIBIDO = 'SET_LIBIDO'
 const SET_CASH = 'SET_CASH'
