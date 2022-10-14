@@ -4,8 +4,6 @@ const initialState = {
     counter: 0
 }
 
-
-
 export const test = createSlice({
     name: 'test',
     initialState,
